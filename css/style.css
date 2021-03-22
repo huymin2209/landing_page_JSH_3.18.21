@@ -310,15 +310,150 @@ h3 {
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    height: 600px;
+    height: 450px;
 }
 
 .ctn-8{
     padding: 50px 0;
 }
 
+.Data-Privacy {
+    background: #FEF8DC;
+    border-radius: 12px;
+    height:300px;
+    width: 380px;
+    padding: 30px;
+    margin-left: 10px;
+}
+
+.Payment-Policy {
+    background: #DDF8EF;
+    border-radius: 12px;
+    height:300px;
+    width: 380px;
+    padding: 30px;
+    margin-left: 35px;
+}
+
+.Usage-Policy {
+    background: #E6F6FE;
+    border-radius: 12px;
+    height:300px;
+    width: 380px;
+    padding: 30px;
+    margin-left: 35px;
+}
+
+.h2-ctn7 {
+    font-weight: bold;
+    font-size: 28px;
+    margin-top: 10px;
+}
 
 /* footer */
 #footer {
-  
+    background: url("../img/footer.png") center / cover no-repeat;
+    background-size: 100%;
+    height: 790px;
+    width: auto;
 }
+
+.container-footer {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ctn-footer {
+    padding-top: 60px;
+}
+
+
+.background-footer {
+    background-color: #FFFFFF;
+    width: 470px;
+    height: 620px;
+    border-radius: 12px;
+    margin-top: 60px;
+    margin-left: 100px;
+    float: right;
+}
+
+.form-footer {
+    padding: 50px 20px 0 20px;
+}
+
+h4 {
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.footer-form {
+    height: 48px;
+    border-radius: 100px;
+    float: right;
+    margin-bottom: 20px;
+    padding: 12px 20px; 
+}
+
+.form-footer-label {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+.control-footer {
+    margin-top: 10px;
+    border-radius: 20px;
+    padding:12px 20px;
+    margin-bottom: 20px;
+    height: 150px;
+}
+
+/* ? */
+.form-message-1 {
+    height: 150px;
+    border-radius: 20px;
+    padding: 20px;    
+}
+/* ? */
+
+.btn-footer {
+    width: 404px;
+    height: 48px;
+    background: #218C64;
+    border-radius: 1000px;
+    border: none;
+    margin-top: 10px;
+}
+
+.btn-footer:hover {
+    background-color: #06472C;
+}
+
+
+/* end */
+#end-jsh {
+    background:#06472C ;
+    height: 80px;
+    width: auto;
+}
+
+.container-end {
+    background-color: none;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
+
+.p-end {
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.end-logo {
+    float: right;
+    padding-top: 6px;
+}
+
