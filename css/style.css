@@ -582,6 +582,9 @@ h4 {
 
 /* Tab: min width > 1025 - max width < 1199px */
 @media only screen and (min-width: 1025px) and (max-width: 1199px) {
+    #nav li a {
+        font-size: 14px;
+    }
 
     .container {
         padding: 0 4%;
@@ -729,16 +732,784 @@ h4 {
 
 
 
+/* Tab: min width > 720 - max width < 890px */
+@media only screen and (min-width: 720px) and (max-width: 890px) {
+    .main{
 
-/* Mobile: width < 740px */
-@media only screen and (max-width: 46.1875em) {
-    
+    }
+
+    .container {
+        max-width: 100%;
+        margin: 0 4%;
+        padding: 0 0;
+    }
+
+    h1 {
+        font-size: 34px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    .row {
+        width: 100%;
+    }
+
+    .col-3 {
+        width: 50%;
+    }
+
+    .col-6 {
+        width: 100%;
+    }
+
+    /* slider */
+    #slider {
+        background: url("../img/Tab-890/background.png") top center / cover no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 800px;
+    }
+
+    .ctn-slider {
+        width: 50%;
+    }
+
+    /* content-2 */
+    #content-2{
+        background: url("../img/Tab-890/background-content-2.png");
+        height: 850px;
+    }
+    .ctn-2 {
+        max-width: 90%;
+        margin: 0 auto; 
+        padding: 5% 0;
+    }
+
+    .img-1 {
+        max-width: 100%;
+        margin:  0 12%;
+    }
+
+    /* content-3 */
+    #content-3 {
+        height: 1000px;
+    }
+    .reverse {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .ctn-3 {
+        max-width: 90%;
+        margin: 0 auto; 
+        padding: 5% 0;
+    }
+
+    .img-2 {
+        max-width: 100%;
+        margin:  20px 10%;
+    }
+
+    /* content-4 */
+    #content-4{
+        background: url("../img/Tab-890/background-content-2.png");
+        height: 920px;
+    }
+
+    .ctn-4 {
+        max-width: 90%;
+        margin: 0 auto; 
+        padding: 5% 0;
+    }
+
+    .img-3 {
+        max-width: 100%;
+        margin:  20px 10%;
+    }
+
+    /* content-5 */
+    #content-5 {
+        height: 780px;
+    }
+
+    .ctn-5 {
+        max-width: 90%;
+        margin: 0 auto; 
+        padding: 5% 0;
+    }
+
+    .img-4 {
+        max-width: 100%;
+        margin:  20px 10%;
+        padding: 0 0;
+    }
+
+    /* content-6 */
+    .ctn-6 {
+        max-width: 70%;
+        margin: 0 auto; 
+        padding: 5% 0;
+    }
+
+    .mb3-name {
+        width: 100%;
+    }
+
+    .mb3-phone {
+        width: 100%;
+    }
+
+    .btn-form-1 {
+        width: 100%;
+    }
+
+    #content-6{
+        background: url("../img/Tab-890/background-content-2.png");
+        height: 500px;
+    }
+
+    /* content-7 */
+    #content-7 {
+        height: 1000px;
+    }
+    .col-4 {
+        width: 45%;
+    }
+    .ctn-7 {
+        max-width: 90%;
+        margin: 0 auto; 
+        padding: 5% 0;
+    }
+
+    .icon-big {
+        width: 90%;
+        margin: 0 4%; 
+        padding: 4% 0;
+    }
+
+    .Usage-Policy {
+        margin: 5% 27%;
+    }
+
+    /* content-8 */
+    #content-8 {
+        height: 800Px;
+        margin-bottom: 50px;
+    }
+
+    .ctn-8 {
+        max-width: 90%;
+        margin: 0 auto; 
+        padding: 5% 0;
+    }
+
+    .img-content8 {
+        max-width: 98%;
+        margin: 0 0 0 3%;
+        padding: 0;
+    }
+
+    /* footer */
+    #footer {
+        height: 1100px;
+    }
+
+    .form-footer {
+        width: 400px;
+        margin: 0 17% 0 0;
+    }
+
+    .ctn-footer {
+        max-width: 90%;
+        margin: 0 auto; 
+        padding: 5% 0;
+    }
 
 }
 
 
 
 
+
+
+
+
+
+/* Mobile: width < 740px */
+@media only screen and (max-width: 46.1875em) {
+    .main{
+
+    }
+
+    .container {
+        max-width: 80%;
+        margin: 0 auto;
+        padding: 0 0;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .row {
+        width: 100%;
+    }
+
+    .col-3 {
+        width: 50%;
+    }
+
+    .col-6 {
+        width: 100%;
+    }
+
+    /* header */
+    #nav {
+        display: none;
+    }
+
+    .language {
+        display: none;
+    }
+
+    /* slider */
+    #slider {
+        background: url("../img/Tab-890/background.png") top center / cover no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 800px;
+    }
+
+    .ctn-slider {
+        width: 50%;
+    }
+
+    /* content-2 */
+    #content-2{
+        background: url("../img/Tab-890/background-content-2.png");
+        height: 850px;
+    }
+    .ctn-2 {
+        max-width: 90%;
+        margin: 0 auto; 
+        padding: 5% 0;
+    }
+
+    .img-1 {
+        max-width: 100%;
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    /* content-3 */
+    #content-3 {
+        height: 1000px;
+    }
+    .reverse {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .ctn-3 {
+        max-width: 90%;
+        margin: 0 auto; 
+        padding: 5% 0;
+    }
+
+    .img-2 {
+        max-width: 100%;
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    /* content-4 */
+    #content-4{
+        background: url("../img/Tab-890/background-content-2.png");
+        height: 920px;
+    }
+
+    .ctn-4 {
+        max-width: 90%;
+        margin: 0 auto; 
+        padding: 5% 0;
+    }
+
+    .img-3 {
+        max-width: 100%;
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    /* content-5 */
+    #content-5 {
+        height: 780px;
+    }
+
+    .ctn-5 {
+        max-width: 90%;
+        margin: 0 auto; 
+        padding: 5% 0;
+    }
+
+    .img-4 {
+        max-width: 100%;
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+        padding: 0 0;
+    }
+
+
+
+    /* content-6 */
+    .ctn-6 {
+        max-width: 70%;
+        margin: 0 auto; 
+        padding: 5% 0;
+    }
+
+    .mb3-name {
+        width: 100%;
+    }
+
+    .mb3-phone {
+        width: 100%;
+    }
+
+    .btn-form-1 {
+        width: 100%;
+    }
+
+    #content-6{
+        background: url("../img/Tab-890/background-content-2.png");
+        height: 500px;
+    }
+
+    /* content-7 */
+    #content-7 {
+        height: 900px;
+    }
+    .col-4 {
+        width: 45%;
+    }
+    .ctn-7 {
+        max-width: 90%;
+        margin: 0 auto; 
+        padding: 5% 0;
+    }
+
+    .icon-big {
+        width: 90%;
+        margin: 0 4%; 
+        padding: 4% 0;
+    }
+
+    .Data-Privacy {
+        height: 300px;
+        padding: 20px;
+    }
+
+    .Payment-Policy {
+        height: 300px;
+        padding: 20px;
+        margin-left: 30px;
+    }
+
+    .Usage-Policy {
+        height: 300px;
+        display: block;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+
+    /* content-8 */
+    #content-8 {
+        height: 750Px;
+    }
+
+    .ctn-8 {
+        max-width: 90%;
+        margin: 0 auto; 
+        padding: 5% 0;
+    }
+
+    .img-content8 {
+        max-width: 100%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    /* footer */
+    #footer {
+        height: 1100px;
+    }
+
+    .form-footer {
+        width: 400px;
+        margin: 0 17% 0 0;
+    }
+
+    .ctn-footer {
+        max-width: 90%;
+        margin: 0 auto; 
+        padding: 5% 0;
+    }
+
+    .btn-footer {
+        width: 100%;
+    }
+
+    .form-footer {
+        margin: 0;
+    }
+    
+}
+
+
+/* Mobile: width < 696px */
+@media only screen and (max-width: 696px) {
+    #main{
+        width: 100%;
+    }
+
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .row {
+        width: 100%;
+        margin: 0 0;
+    }
+
+    /* slider */
+    #slider {
+        background: url("../img/mobile-690/background.png") top center / cover no-repeat;
+        max-width: 100%;
+        background-size: cover;
+        height: 890px;
+    }
+
+    .ctn-slider {
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    /* content-1 */
+    #ctn-1 {
+        width: 100%;
+    }
+
+    .img-item {
+        width: 60%;
+    }
+
+    .colum-item p {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    /* content-2 */
+    #content-2 {
+        height: 750px;
+    }
+
+    .ctn-2 {
+        margin: 0 auto;
+    }
+
+    .img-1 {
+        width: 80%;
+    }
+
+    /* content-3 */
+    #content-3 {
+        height: 850px;
+    }
+    .img-2 {
+        width: 80%;
+    }
+
+    /* content-4 */
+    #content-4 {
+        height: 800px;
+    }
+
+    .img-3 {
+        width: 80%;
+    }
+
+    /* content-5 */
+    #content-5 {
+        height: 700px;
+    }
+
+    .img-4 {
+        width: 80%;
+    }
+
+    /* content-6 */
+    #content-6 {
+        height: 450px;
+    }
+
+    /* content-7 */
+    #content-7 {
+        height: 800px;
+    }
+
+    .Data-Privacy {
+        height: 250px;
+        padding: 20px;
+    }
+
+    .Payment-Policy {
+        height: 250px;
+        padding: 20px;
+        margin-left: 30px;
+    }
+
+    .Usage-Policy {
+        height: 250px;
+        display: block;
+        margin: 0 auto;
+        margin-top: 30px;
+        padding: 20px;
+    }
+
+    /* fotter */
+    .form-footer {
+        margin: 0 10%;
+    }
+
+} 
+
+
+
+
+
+
+
+
+/* Mobile: width < 669px */
+@media only screen and (max-width: 669px) {
+    .container {
+        width: 100%;
+        margin:  0 auto;
+    }
+
+    /* content-2 */
+    #content-2 {
+        height: 100%;
+        padding-bottom: 10%;
+    }
+
+        /* content-3 */
+        #content-3 {
+            height: 100%;
+            padding-bottom: 10%;
+        }
+
+    /* content-4 */
+    #content-4 {
+        height: 100%;
+        padding-bottom: 10%;
+    }
+
+    #content-5 {
+        height: 100%;
+        padding-bottom: 10%;
+
+    }
+
+    /* content-7 */
+    #content-7 {
+        height: 100%;
+        padding-bottom: 5%;
+    }
+
+    .ctn-7 {
+        max-width: 100%;
+        margin: 50px 0 0 0;
+        padding: 0 0;
+    }
+
+    .row {
+        width: 100%;
+    }
+
+    .col-4 {
+        width: 100%;
+    }
+
+    .Data-Privacy {
+        height: auto;
+        padding: 50px;
+        margin: 10px 0;
+    }
+
+    .Payment-Policy {
+        height: auto;
+        padding: 50px;
+        margin-left: 30px;
+        margin: 10px 0;
+    }
+
+    .Usage-Policy {
+        height: auto;
+        display: block;
+        margin: 10px 0;
+        padding: 50px;
+    }
+
+    /* content-8 */
+    .img-content8 {
+        margin: 0 0;
+        padding: 0 0;
+    }
+
+    #content-8 {
+        height: 650px;
+    }
+
+    /* footer */
+     .form-footer {
+        display: inline-block;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+
+    /* end */
+    .col-end {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #end-jsh {
+        height: 160px;
+    }
+
+    .end-logo {
+        display: block;
+        margin-right: 40%;
+    }
+
+    .p-end {
+        margin-left: 10%;
+    }
+
+}
+
+
+
+
+
+
+/* Mobile: width < 578px */
+@media only screen and (max-width: 578px) {
+    #main {
+        width: 578px;
+    }
+
+    .container {
+        max-width: 546px;
+        margin: 0 16px;
+    }
+
+    /* footer */
+    .form-footer {
+        margin:  0 0;
+    }
+
+    .background-footer {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* end */
+    #end-jsh {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .p-end {
+        text-align: center;
+        max-width: 100%;
+        font-size: 14px;
+        margin: 0 auto;
+    }
+
+}
+
+.bar-btn {
+    display: none;
+    line-height: 120px;
+    float: right;
+}
+
+.nav-overlay {
+    position: fixed;
+    top: 0; 
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgb(0, 0, 0, 0.3);
+    display: none;
+}
+
+
+/* Mobile: width < 1024px */
+@media only screen and (max-width: 1024px) {
+    .bar-btn {
+        display: block;
+    }
+}
+
+
+
+
+
+/* Mobile: width < 740px */
+@media only screen and (max-width: 739px) {
+    .col-1{
+        width: 10%;
+    }
+    .bar-btn {
+        display: block;
+    }
+}
+
+
+/* Tab: min width > 1025 - max width < 1060px */
+@media only screen and (min-width: 1025px) and (max-width: 1060px) {
+    #nav {
+        display: none;
+    }
+
+    .language {
+        display: none;
+    }
+
+    .bar-btn {
+        display: block;
+    }
+}
 
 
 
